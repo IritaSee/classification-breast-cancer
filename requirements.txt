@@ -4,5 +4,6 @@ opencv-python
 pandas
 scikit-image
 scikit-learn
+numpy
 matplotlib
 regex

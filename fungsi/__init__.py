@@ -20,7 +20,7 @@ def glcm(img):
     upload = img.split("/")
     file = upload[-1]
     img_read = cv2.imread(img,0)
-    name_gray = "tmp/img/"+file[:-4]+" gray.jpg"
+    name_gray = "./tmp/img/"+file[:-4]+" gray.jpg"
     cv2.imwrite(name_gray,img_read)
     image_disp = {
         'original'  : img,

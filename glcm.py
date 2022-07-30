@@ -2,7 +2,6 @@ import cv2
 import pandas as pd
 from skimage.feature import graycomatrix, graycoprops
 from sklearn import svm
-from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import os
 
